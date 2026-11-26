@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mani | Network & Infrastructure Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0b0f19;
+      --card-bg: rgba(22, 30, 49, 0.7);
+      --border: rgba(255, 255, 255, 0.08);
+      --primary: #38bdf8;
+      --text: #f1f5f9;
+      --text-muted: #94a3b8;
+      --accent: #10b981;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: 'Vazirmatn', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 680px;
+      width: 100%;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 40px;
+      backdrop-filter: blur(16px);
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(16, 185, 129, 0.1);
+      border: 1px solid rgba(16, 185, 129, 0.2);
+      color: var(--accent);
+      padding: 4px 12px;
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      margin-bottom: 20px;
+    }
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      background: var(--accent);
+      border-radius: 50%;
+      box-shadow: 0 0 10px var(--accent);
+    }
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+    .title {
+      font-size: 1.1rem;
+      color: var(--primary);
+      font-family: 'JetBrains Mono', monospace;
+      direction: ltr;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+    p.desc {
+      color: var(--text-muted);
+      margin-bottom: 28px;
+      font-size: 1rem;
+    }
+    .skills-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 32px;
+      direction: ltr;
+    }
+    .skill-tag {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--border);
+      color: #cbd5e1;
+      padding: 6px 14px;
+      border-radius: 8px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.85rem;
+    }
+    .contact-box {
+      border-top: 1px solid var(--border);
+      padding-top: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .link-btn {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: rgba(56, 189, 248, 0.05);
+      border: 1px solid rgba(56, 189, 248, 0.2);
+      color: var(--text);
+      text-decoration: none;
+      padding: 14px 20px;
+      border-radius: 12px;
+      transition: all 0.2s ease;
+      direction: ltr;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .link-btn:hover {
+      background: rgba(56, 189, 248, 0.15);
+      border-color: var(--primary);
+      transform: translateY(-2px);
+    }
+    .domain-badge {
+      text-align: center;
+      margin-top: 24px;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      font-family: 'JetBrains Mono', monospace;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="badge">
+      <span class="status-dot"></span>
+      در دسترس برای پروژه‌های زیرساخت و مشاوره
+    </div>
+    <h1>مانی</h1>
+    <div class="title">Senior Network & Infrastructure Engineer</div>
+    <p class="desc">
+      طراحی، پیاده‌سازی و نگهداری زیرساخت‌های شبکه مقیاس‌پذیر، مجازی‌سازی دیتاسنتر، شبکه‌های ذخیره‌سازی (SAN Storage) و روتینگ تخصصی.
+    </p>
+
+    <div class="skills-grid">
+      <span class="skill-tag">VMware ESXi</span>
+      <span class="skill-tag">MikroTik RouterOS</span>
+      <span class="skill-tag">HPE SAN & Blade</span>
+      <span class="skill-tag">BGP & Routing</span>
+      <span class="skill-tag">Datacenter Infrastructure</span>
+    </div>
+
+    <div class="contact-box">
+      <a href="mailto:mani@manima.net" class="link-btn">
+        <span>Email</span>
+        <span style="color: var(--primary);">mani@manima.net</span>
+      </a>
+      <a href="https://github.com/manima" target="_blank" class="link-btn">
+        <span>GitHub</span>
+        <span style="color: var(--primary);">github.com/manima</span>
+      </a>
+    </div>
+
+    <div class="domain-badge">
+      manima.net • established 1999/2000
+    </div>
+  </div>
+</body>
+</html>
